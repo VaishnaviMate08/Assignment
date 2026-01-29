@@ -5,7 +5,7 @@ public class MoveZeros {
 
         int index = 0; // Position to place the next non-zero
 
-        // Move all non-zero elements to the front
+        
         for (int num : arr) {
             if (num != 0) {
                 arr[index++] = num;
@@ -17,10 +17,11 @@ public class MoveZeros {
             arr[index++] = 0;
         }
 
-        // Print result
+        
         System.out.print("Array after moving zeros: ");
         for (int num : arr) {
             System.out.print(num + " ");
         }
     }
+
 }
